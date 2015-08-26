@@ -30,5 +30,10 @@
 			  </tr>
 			</tbody>
 		</table>
+		<form class="form-inline" ng-submit="main.addPerson()">
+			<input type="text" class="form-control" placeholder="Michael" ng-model="main.personData.name">
+			<input type="text" class="form-control" placeholder="25" ng-model="main.personData.age">
+			<button type="submit" class="btn btn-success">Add</button> 
+		</form>
 	</body>
 </html>

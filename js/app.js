@@ -3,7 +3,7 @@ angular.module('angularExample', [])
 .controller('mainController', function(){
 	var vm = this;
 
-	vm.message = "Hello World!";
+	vm.message = "Two way databinding!";
 
 	vm.people = [
 		{ name: "James", age: "21" },
